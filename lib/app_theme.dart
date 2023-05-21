@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AppLightTheme {
-  final primarySwatch = Colors.pink;
+  final primarySwatch = Colors.blue;
   final appBarTheme = const AppBarTheme(
-    backgroundColor: Color(0xFFAB47BC),
+    backgroundColor: Color(0xFF7986CB),
     titleTextStyle: TextStyle(
       fontSize: 21,
       fontWeight: FontWeight.bold,
@@ -13,13 +13,13 @@ class AppLightTheme {
 }
 
 class AppDarkTheme {
-  final primarySwatch = Colors.pink;
+  final primarySwatch = Colors.blueGrey;
   final appBarTheme = const AppBarTheme(
-      backgroundColor: Color(0xFF4527A0),
+      backgroundColor: Color(0xFF90A4AE),
       titleTextStyle: TextStyle(
         fontSize: 21,
         fontWeight: FontWeight.bold,
       )
   );
-  final scaffoldBackgroundColor = const Color(0xFF7E57C2);
+  final scaffoldBackgroundColor = Colors.black;
 }

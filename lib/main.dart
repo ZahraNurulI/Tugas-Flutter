@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     final darkTheme = AppDarkTheme();
     return MaterialApp(
       title: 'Tugas KI',
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.dark,
       theme: ThemeData(
           brightness: Brightness.light,
           primarySwatch: lightTheme.primarySwatch,

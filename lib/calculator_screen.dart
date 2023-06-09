@@ -31,17 +31,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
             automaticallyImplyLeading: false,
           ),
           body: Row(
-<<<<<<< HEAD
           children : [
             Container(
             padding: EdgeInsets.all(16),
             margin: EdgeInsets.all(16),
-=======
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children : [
-            Container(
-            padding: EdgeInsets.all(16),
->>>>>>> origin/main
             width: 500,
             child: Column(
               children: [
@@ -230,26 +223,16 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 Container(
                   width: 500,
                   padding: EdgeInsets.all(16),
-<<<<<<< HEAD
                   margin: EdgeInsets.all(16),
-=======
->>>>>>> origin/main
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-<<<<<<< HEAD
                       Expanded(child: Text('History', style: TextStyle(
                         fontSize: 25,
                         fontWeight: FontWeight.bold,
                       ),),),
-                      IconButton(onPressed: () => delete(), icon: Icon(Icons.delete_sharp)),
-=======
-                      Text('History', style: TextStyle(
-                        fontSize: 25,
-                        fontWeight: FontWeight.bold,
-                      ),),
->>>>>>> origin/main
+                      IconButton(onPressed: (){}, icon: Icon(Icons.delete_sharp)),
                       SizedBox(height: 18),
                       Visibility(
                         visible: total != null,
@@ -284,21 +267,14 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       ),
                     ],
                   ),
-<<<<<<< HEAD
                 ),
-=======
-                )
->>>>>>> origin/main
               ],
           ),
     );
   }
-<<<<<<< HEAD
 
   void delete(int? index){
 
   }
 
-=======
->>>>>>> origin/main
 }

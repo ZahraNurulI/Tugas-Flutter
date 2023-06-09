@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:tugas_ki/app_theme.dart';
+import 'package:tugas_ki/my_bio.dart';
 import 'register_screen.dart';
 import 'package:tugas_ki/list_screen.dart';
 import 'login_page.dart';
 import 'calculator_screen.dart';
+import 'history.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,13 +35,15 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: darkTheme.scaffoldBackgroundColor
       ),
       debugShowCheckedModeBanner: false,
-      initialRoute: '/calculator',
+      initialRoute: '/bio',
       routes:  {
         '/': (context) => const MyHomePage(title: 'Week 3'),
         '/register': (context) => const RegisterScreen(),
         '/list' : (context) => const ListScreen(),
         '/login' : (context) => const LoginPage(),
+        '/history' : (context) => const History(),
         '/calculator' : (context) => const CalculatorScreen(),
+        '/bio' : (context) => const ShoppingListScreen(),
       },
     );
   }
